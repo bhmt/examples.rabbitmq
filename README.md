@@ -4,10 +4,10 @@
 
 The solution contains of a .NET5 Hosted Service and RabbitMQ.
 
-The `MQ.Consumer` project represents a messaging queue.
+The `bhmt.mq.consumer` project represents a messaging queue.
 It is run as a BackgroundService. It will read a recieved message and print it to console.
 
-The `MQ.Producer` project is used to send messages when calling an endpoint at `/api/Producer/Send`.
+The `bhmt.mq.producer` project is used to send messages when calling an endpoint at `/api/Producer/Send`.
 
 
 ## Usage
